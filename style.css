@@ -3,20 +3,10 @@
 }
 
 img {
-  width: 200;
+  width: 20%;
   border-radius: 50%;
 }
 
-.button-profile {
-  background-color: rgba(66, 84, 130, 0.3);
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 16px;
-  border: none;
-  text-decoration: none;
-  color: white !important;
-  font-family: fantasy,sans-serif;
-}
 .card {
   margin: auto;
   margin-bottom: 25px;
@@ -98,5 +88,37 @@ body {
 .opera-link {
   text-decoration: none;
   color: #575F7D;
-  width: auto;
+  width: 100%;
+  background-color: rgba(66, 84, 130, 0.3);
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 0.5px solid #575f7d;
+}
+
+.button-profile {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 17px;
+  border: none;
+  text-decoration: none;
+
+}
+.button-profile a:hover {
+  width: 100%;
+  /* color: wheat; */
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 17px;
+  border: none;
+  text-decoration: none;
+}
+
+.main-div {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
