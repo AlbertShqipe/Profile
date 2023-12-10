@@ -2,8 +2,13 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 200;
+  border-radius: 50%;
+}
+
 .button-profile {
-  background-color: seagreen;
+  background-color: rgba(66, 84, 130, 0.3);
   padding: 8px 16px;
   border-radius: 4px;
   font-size: 16px;
@@ -93,4 +98,5 @@ body {
 .opera-link {
   text-decoration: none;
   color: #575F7D;
+  width: auto;
 }
